@@ -1,0 +1,25 @@
+var style1 = `
+/**
+ * 现在简历是markdown格式的，看起来很不友好
+ * 再把它渲染成html
+ */
+
+#work-text.flipped {
+  -webkit-transform: rotateX(0deg) rotateY(190deg) rotateZ(180deg);
+}
+
+#work-text .md {
+  -webkit-transform: rotateY(190deg) rotateZ(180deg);
+}
+
+/**
+ * ok！样式写完,准备.
+ *
+ * 3...
+ * 2...
+ * 1...
+ *
+ * 走你!
+ *
+ */
+`
